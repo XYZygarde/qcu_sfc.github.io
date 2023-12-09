@@ -1,0 +1,430 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>QCU - San Francisco Campus</title>
+        <link rel="stylesheet" type="text/css" href="webDesign.css">     
+        <link rel="shortcut icon" type="image/png" href="img/logo.jpg">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body id="window_click">
+    
+        <header class="header-nav">
+           <h2>QUEZON CITY UNIVERSITY</h2> 
+           <img class="logo" src="img/logo.jpg" onclick="reloadpage()" alt="Quezon City University Logo">
+           
+            <nav class="nav-list">
+                <a class="nav-b" href="#home_id">Home</a>
+                <a class="nav-b" href="#about_us">About Us</a>
+                <a class="nav-b" href="#obj_b">Values</a>
+                <a class="nav-b" href="#contact_b">Contacts</a>
+            </nav>
+        </header>
+         
+        <div class="side-nav" id="container_a">
+            <button class="hide-bt" id="mybtn_hide">◄</button>
+            <ul class="list-btn" >
+                <li class="side_n" id="one-side-n">Offered Courses</li>
+                <li class="side_n" id="two-side-n">Facilities</li>
+                <li class="side_n" id="three-side-n">QCU SF map</li>
+                <li class="side_n" id="four-side-n">Gallery</li>
+            </ul>
+            
+        </div>
+
+        <div class="show-con" id="container_b">
+            <button class="show-bt" id="mybtn_show">►</button>
+        </div>
+    
+     <!-- HOME PAGE-->
+          
+      
+        <section class="title-box" id="home_id">
+           <h1 class="title" >ALL ABOUT QUEZON CITY UNIVERSITY:<br> SAN FRANCISCO CAMPUS</h1>
+           <p class="subtitle">Embark on a journey of discovery with QCU San Francisco Campus:<br> 
+                               Your guide  to academic excellence and personal growth.<br> We hope you
+                               enjoy our project!</p>
+        </section>
+
+
+    <!-- ABOUT PAGE-->
+
+         <section class="about-box" id="about_us">
+          <h1 class="text-about">About Us</h1> 
+              <!-- ABOUT PAGE BOXES-->
+            <div class="second-pg">
+                <p class="info-1" id="box_1">
+                    We are the developers of this Informational Website about our Campus, QCU - San Francisco 
+                    Branch. Our goal is to provide our fellow students, faculty, staff, and the wider community 
+                    with a comprehensive and up-to-date resource about our institution. Our group of web developers,
+                    graphic designers, content writers, and project managers is focused on providing outstanding 
+                    outcomes and are passionate about technology. We work closely together, exchanging ideas, 
+                    brainstorming solutions, and putting in a lot of effort to improvise and refine the features and 
+                    functionality of the website. The QCU San Francisco Campus website is a valuable resource for 
+                    both prospective and current students, and we take pride in our work on it. Feel free to take 
+                    some time to navigate through our website and discover more about our campus.
+                    
+                </p>
+                 <div class="third-pg" id="box_2">
+                     
+          
+                   <img src="img/ab.png"> 
+                     
+                    <p class="text-about-2"> 
+                      The developers are composed of 7 BSIT students, the 
+                      project manager is 
+                      <span id="christian">Christian I. Ancog</span>
+                      while the frontend developers are 
+                      <span id="jane">Jane Abalos</span>,
+                      <span id="ryza"> Ryza Sabordo</span>, 
+                      <span id="cj">Christian Jan Gathchalian</span>, 
+                      <span id="jojit">Jojit Oliva Jr.</span>,
+                      <span id="sam">Samuel Mendoza</span>, and
+                      <span id="jhon">Jhon Lloyd Pasacsac</span>. 
+                    </p>   
+                 </div>
+
+
+                  
+
+            </div>
+
+            <div class="side-popup-bar">
+                 <img id="target_img" height="100" width="100">
+                 <h3 id="target_txt"></h3>
+            </div>
+          
+         </section>
+
+    <!--OFFERED PROGRAMS-->     
+   
+         
+        <section class="courses-box" id="Offered_c">
+            <h1 class="text-courses" >Offered Programs</h1> 
+            <div class="pending-c">
+              <p> 
+                QCU San Francisco Campus offered two programs, Bachelor of Science in Information 
+                Technology (BSIT) and Bachelor of Science  in Entrepreneurship (BS Entrepreneurship).
+                 They are both undergraduate degree programs that prepare students  for careers in the 
+                technology and business sectors. BSIT program focused on the technical aspects of 
+                information technology, such as programming, networking, and cybersecurity. 
+                BS Entrepreneurship program focus on the business aspects of starting and
+                running a company, such as marketing, finance, and management.
+              </p>
+            </div>
+            <div class="bsit-c" >
+              <img src="img/bsitlogo.webp">
+              <h1>BACHELOR OF SCIENCE IN INFORMATION TECNOLOGY</h1>
+            </div>
+            <div class="bsent-c">
+              <img src="img/bsentlogo.webp">
+              <h1>BACHELOR OF SCIENCE IN ENTREPRENEURSHIP</h1>
+            </div>
+        </section>
+
+
+     <!-- FACILITIES -->  
+        <section class="facilities-box" id="FacilitiesDiv"> 
+          <h1 class="text-facilities">Facilities</h1>
+
+          <button id="next-slide">NEXT -></button>
+
+           <div class="f-admin">
+              <img src="img/adminpic.jpg">
+              <h2>ADMIN OFFICE</h2>
+              <button id="show_admin">EXPLORE</button>
+           </div>
+
+           <div class="f-library">
+            <img src="img/librarypic.jpg">
+            <h2>LIBRARY</h2>
+            <button id="show_library">EXPLORE</button>
+           </div>
+
+           <div class="f-clinic">
+            <img src="img/clinicpic.jpg">
+            <h2>CLINIC</h2>
+            <button id="show_clinic">EXPLORE</button>
+           </div>
+
+           <div class="facilities-new-set">
+
+              <div class="f-comlab">
+                <img src="img/comlabpic.jpg">
+                <h2>COMPUTER LAB</h2>
+                <button id="show_comlab">EXPLORE</button>
+              </div> 
+
+              <div class="f-faculty">
+                <img src="img/facultypic.jpg">
+                <h2>FACULTY</h2>
+                <button id="show_faculty">EXPLORE</button>
+              </div> 
+
+              <div class="f-greenhouse">
+                <img src="img/greenhpic.jpg">
+                <h2>GREEN HOUSE</h2>
+                <button id="show_greenhouse">EXPLORE</button>
+              </div> 
+
+           </div>
+        </section>
+    
+
+
+
+        <!--THIS CONTAINER IS FOR POP UP ADMIN CONTENT-->      
+        <div class="f-js-popup-admin">
+            <button class="hide-this" id="close-this">☓</button>
+            <div class="f-showbox" >
+                <h1>QCU ADMIN OFFICE</h1>
+                <img src="img/adminpic.jpg">
+            </div>
+            <div class="f-showbox2">
+                <p>The Admin Office manages the Quezon City University San Francisco Campus's 
+                  daily operations, overseeing staff and facilities, and ensuring smooth operations. 
+                  It also communicates with the community, keeping them informed about campus news 
+                  and events, and responding to inquiries from students, faculty, and staff.
+                  The administrative hub of QCU San Francisco Campus, is responsible for daily 
+                  operations and resolving campus-related issues and inquiries.</p>
+                <br>
+                <ul>
+                   <li>ADMIN PERSONELS: </li> 
+                   <li>⦿ Admin 1 - sample name</li> 
+                   <li>⦿ Admin 2 - sample name</li> 
+                   <li>⦿ Admin 3 - sample name</li>                 
+                </ul>
+                <br>
+                <a href="#">✈ Visit here in QCU SF Map</a>
+            </div>   
+        </div>
+        
+        <!--THIS CONTAINER IS FOR POP UP LIBRARY CONTENT-->    
+        <div class="f-js-popup-library">
+          <button class="hide-this" id="close-this-1">☓</button>
+          <div class="f-showbox">
+              <h1>QCU LIBRARY</h1>
+              <img src="img/librarypic.jpg">
+          </div>
+          <div class="f-showbox2">
+              <p>The Quezon City University - San Francisco library provides a vast collection of books, journals,
+                 and other resources to support the academic needs of the community. It offers various services 
+                 to patrons, including reference services, circulation services, inter library loan services, 
+                 computer and printing services, and instructional services. Librarians assist in finding 
+                 information on various topics, while circulation services allow borrowing materials from other
+                 libraries. Additionally, the library provides computers for research and printing, and offers 
+                 instruction on using library resources.</p>
+              <br>
+              <ul>
+                 <li>LIBRARY PERSONELS: </li> 
+                 <li>⦿ Librarian 1 - sample name</li> 
+                 <li>⦿ Librarian 2 - sample name</li> 
+                 <li>⦿ Librarian 3 - sample name</li>                 
+              </ul>
+              <br>
+              <a href="#">✈ Visit here in QCU SF Map</a>
+          </div>   
+         </div>
+
+      
+         <!--THIS CONTAINER IS FOR POP UP CLINIC CONTENT-->    
+         <div class="f-js-popup-clinic">
+           <button class="hide-this" id="close-this-2">☓</button>
+             <div class="f-showbox">
+               <h1>QCU CLINIC</h1>
+               <img src="img/clinicpic.jpg">
+             </div>
+          <div class="f-showbox2">
+              <p>The Quezon City University San Francisco Clinic offers basic medical 
+                and dental services to students and staff. Services include initial and 
+                comprehensive medical 
+                examinations, consultation and treatment for minor ailments, first aid 
+                and emergency care, dental check-ups, dental fillings and extractions, 
+                and health education and counseling. The clinic is staffed by licensed
+                 and experienced professionals committed to providing quality and 
+                 compassionate care. To access services, students and staff can visit 
+                 during its operating hours without appointments, but a valid QCU ID 
+                 and medical history photocopy are required.</p>
+              <br>
+              <ul>
+                 <li>CLINIC PERSONELS: </li> 
+                 <li>⦿ Nurse 1 - sample name</li> 
+                 <li>⦿ Doctor 2 - sample name</li> 
+                 <li>⦿ Nurse 3 - sample name</li>                 
+              </ul>
+              <br>
+              <a href="#">✈ Visit here in QCU SF Map</a>
+          </div>   
+         </div>
+
+         <!--THIS CONTAINER IS FOR POP UP COMLAB CONTENT-->    
+         <div class="f-js-popup-comlab">
+          <button class="hide-this" id="close-this-3">☓</button>
+            <div class="f-showbox">
+              <h1>QCU COMPUTER LAB</h1>
+              <img src="img/comlabpic.jpg">
+            </div>
+         <div class="f-showbox2">
+             <p>The Quezon City University San Francisco Computer Laboratory 
+               (SFCL) is a modern facility that offers students access to the latest
+               technology and software. 
+               It features various computer workstations connected to the QCU network
+               and internet access. The lab also offers software applications like
+               Microsoft Office and Adobe Creative Suite. The SFCL is staffed by 
+               IT professionals who can assist with troubleshooting, software 
+               installation, and printing. It is a valuable resource for QCU SF 
+               students, providing access to the latest technology, a quiet 
+               environment, IT assistance, and opportunities for collaboration. 
+               The SFCL is highly recommended for QCU SF students.</p>
+             <br>
+             <ul>
+                <li>COMPUTER LAB PERSONELS: </li> 
+                <li>⦿ Staff 1 - sample name</li> 
+                <li>⦿ Staff 2 - sample name</li> 
+                <li>⦿ Staff 3 - sample name</li>                 
+             </ul>
+             <br>
+             <a href="#">✈ Visit here in QCU SF Map</a>
+         </div>   
+        </div> 
+
+        <!--THIS CONTAINER IS FOR POP UP FACULTY CONTENT-->    
+        <div class="f-js-popup-faculty">
+          <button class="hide-this" id="close-this-4">☓</button>
+            <div class="f-showbox">
+              <h1>QCU FACULTY</h1>
+              <img src="img/facultypic.jpg">
+            </div>
+         <div class="f-showbox2">
+             <p>QCU San Francisco's faculty is composed of highly qualified professionals 
+                dedicated to providing quality education to students. With a wide range
+                 of expertise in their respective fields, they aim to equip students with 
+                 the skills and knowledge needed for their chosen careers. The faculty is 
+                 committed to creating a personalized learning experience, offering support
+                 and inclusivity outside of class. They are actively involved in research 
+                 and scholarly activities, ensuring they stay updated on the latest developments 
+                 in their fields. They also actively participate in community service activities,
+                 promoting service learning as part of a well-rounded education. The faculty is a
+                 valuable asset to the university, providing students with a quality education that 
+                 prepares them for success in their chosen careers. To learn more about the faculty, 
+                 visit the QCU San Francisco website or contact the university.</p>
+             <br>
+             <ul>
+                <li>FACULTY PERSONELS: </li> 
+                <li>⦿ Proffesor 1 - sample name</li> 
+                <li>⦿ Proffesor 2 - sample name</li> 
+                <li>⦿ Professor 3 - sample name</li>                 
+             </ul>
+             <br>
+             <a href="#">✈ Visit here in QCU SF Map</a>
+         </div>   
+        </div> 
+
+        <!--THIS CONTAINER IS FOR POP UP FACULTY CONTENT-->    
+        <div class="f-js-popup-greenhouse">
+          <button class="hide-this" id="close-this-5">☓</button>
+            <div class="f-showbox">
+              <h1>QCU FACULTY</h1>
+              <img src="img/greenhpic.jpg">
+            </div>
+         <div class="f-showbox2">
+             <p>The QCU SF Greenhouse is a modern facility that offers students the 
+               chance to learn about sustainable agriculture. It features a rainwater
+               harvesting system, composting system, and hydroponic system. The greenhouse 
+               is used for growing fruits, vegetables, and herbs, conducting research on 
+               sustainable practices, and providing educational opportunities. It also 
+               serves as a source of fresh, locally grown produce for the QCU community.
+               The QCU SF Greenhouse reduces the university's carbon footprint and promotes
+               sustainable agriculture practices.</p>
+             <br>
+             <ul>
+                <li>GREENHOUSE PERSONELS: </li> 
+                <li>⦿ Staff 1 - sample name</li> 
+                <li>⦿ Staff 2 - sample name</li> 
+                <li>⦿ Staff 3 - sample name</li>                 
+             </ul>
+             <br>
+             <a href="#">✈ Visit here in QCU SF Map</a>
+         </div>   
+        </div> 
+       
+      
+        <!--THIS CONTAINER IS FOR OBJ OF QCU CAMPUS-->   
+      <section class="obj-box" id="obj_b">
+        <h1 class="text-obj">Values</h1>
+        <div class="container">
+
+          <div class="column-1">
+              <h2>Mission</h2>
+              <p>
+                To provide comprehensive education <br> 
+                that enhances the lives of qcu students <br> 
+                for nation-building and as world citizen</p>
+          </div>
+      
+          <div class="column-2">
+              <h2>Vision</h2>
+              <p> To be recognized as #1 local University 
+                of employable graduates
+              </p>
+          </div>
+      
+          <div class="column-3">
+              <h2>Shared Values</h2>
+              <p>Jointness of Undertaking and <br>
+                Organizational Adaptability <br> 
+                Yoke of Efficiency & Effectiveness <br></p>
+          </div>
+
+        </div>
+      </section>
+      
+
+      
+        <!--THIS CONTAINER IS FOR MAP BoX-->   
+      <section class="map-box" id="map_b">
+        <div class="map-con">
+          <h2>QUEZON CITY UNIVERSITY, <br> SAN FRANCISCO MAP GUIDE</h2>
+          <p>Welcome to our guide map for QCU SF Branch facilities</p>
+          <button id="qcumap">EXPLORE MAP</button>
+        </div>
+        <img src="map/maplogo.png" class="map-logo-pic">         
+      </section>
+
+       <!--THIS CONTAINER IS FOR GALLERY AND CONTACT BOX-->   
+      
+      <section class="gallery-box" id="gallery_b">
+         
+        <h2 class="text-gallery">Gallery</h2>
+         
+        <div class="img-grid-con">
+          <img src="img/gallery_data_1.JPG" class="img-grid-item">
+          <img src="img/gallery_data_2.JPG" class="img-grid-item">
+          <img src="img/gallery_data_3.JPG" class="img-grid-item">
+          <img src="img/gallery_data_4.JPG" class="img-grid-item">
+          <img src="img/gallery_data_5.JPG" class="img-grid-item">
+          <img src="img/gallery_data_6.JPG" class="img-grid-item">
+          <img src="img/gallery_data_7.JPG" class="img-grid-item">
+          <img src="img/gallery_data_8.JPG" class="img-grid-item">
+          <img src="img/" class="img-grid-item">
+          <img src="img/" class="img-grid-item">
+          <img src="img/" class="img-grid-item">
+          <img src="img/" class="img-grid-item">
+          <img src="img/" class="img-grid-item">
+          <img src="img/" class="img-grid-item">
+          <img src="img/" class="img-grid-item">
+          <img src="img/" class="img-grid-item">
+          <img src="img/" class="img-grid-item">
+          <img src="img/" class="img-grid-item">
+          <img src="img/" class="img-grid-item">
+          <img src="img/" class="img-grid-item">
+          
+        </div>
+
+           <div class="contact-box" id="contact_b">
+
+           </div>            
+      </section>
+      
+       <script src="webScript.js"></script>
+    </body>
+</html>
