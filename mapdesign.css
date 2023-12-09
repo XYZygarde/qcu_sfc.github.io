@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: arial;
+}
+body{  
+    background: #FFFBF5;
+}
+.map-navigation{
+    position: absolute;
+    height: 100vh;
+    width:  400px;
+    background: #45474B;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,.4);
+}
+.map-layout{
+    position: absolute;
+    height: 650px;
+    width: 1200px;
+    top: 15%;
+    left: 28%;
+    
+}
+.map-layout img{
+    height: 650px;
+    width: 1250px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.5);
+}
+
+#schoolgate{
+    position: absolute;
+    top: 430px;
+    left: 675px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background:greenyellow;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 50px 50px;
+}
+#room101{
+    position: absolute;
+    top: 430px;
+    left: 1000px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background:greenyellow;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 50px 50px;
+}
+#room102{
+    position: absolute;
+    top: 430px;
+    left: 850px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background:greenyellow;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 50px 50px;
+}
+#room103{
+    position: absolute;
+    top: 430px;
+    left: 500px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background:greenyellow;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 50px 50px;
+}
+#first_stair{
+    position: absolute;
+    top: 430px;
+    left: 350px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background:greenyellow;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 50px 50px;
+}
+#first_cr{
+    position: absolute;
+    top: 430px;
+    left: 165px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background:greenyellow;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 50px 50px;
+}
+#admin{
+    position: absolute;
+    top: 320px;
+    left: 1000px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background:greenyellow;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 50px 50px;
+}
+#library{
+    position: absolute;
+    top: 320px;
+    left: 850px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background:greenyellow;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 50px 50px;
+}
+#faculty{
+    position: absolute;
+    top: 320px;
+    left: 675px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background:greenyellow;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 50px 50px;
+}
+#clinic{
+    position: absolute;
+    top: 320px;
+    left: 500px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background:greenyellow;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 50px 50px;
+}
+#second_stair{
+    position: absolute;
+    top: 320px;
+    left: 350px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background:greenyellow;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 50px 50px;
+}
+#second_cr{
+    position: absolute;
+    top: 320px;
+    left: 165px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background:greenyellow;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 50px 50px;
+}
+#room301{
+    position: absolute;
+    top: 220px;
+    left: 1000px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background:greenyellow;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 50px 50px;
+}
+#comlab{
+    position: absolute;
+    top: 220px;
+    left: 850px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background:greenyellow;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 50px 50px;
+}
+#room303{
+    position: absolute;
+    top: 220px;
+    left: 675px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background:greenyellow;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 50px 50px;
+}
+#room304{
+    position: absolute;
+    top: 220px;
+    left: 500px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background:greenyellow;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 50px 50px;
+}
+#third_stair{
+    position: absolute;
+    top: 220px;
+    left: 350px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background:greenyellow;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 50px 50px;
+}
+#third_cr{
+    position: absolute;
+    top: 220px;
+    left: 165px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background:greenyellow;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 50px 50px;
+}
+#fireexit{
+    position: absolute;
+    top: 220px;
+    left: 1100px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background:red;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 50px 50px;
+}
